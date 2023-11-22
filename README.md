@@ -1,3 +1,15 @@
+## Lemme Get A Sig Wallet
+*** Multi-Signature Wallet created with the Foundry framework. Not yet tested for Production**
+
+This Multi-Signature Wallet has the ability to:
+    **Send(with approval)/Receive**
+    **Add/Remove Owners**
+    **Owners can Submit Tx for Approval**
+    **Owners can Approve/Revoke Tx**
+    **Quorum is dynamically set to 80%**
+    **Tx is executed upon 80% Owner Approval**
+
+------------------------------------------------------------------------------------------------------------------------
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
@@ -9,58 +21,4 @@ Foundry consists of:
 -   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
 -   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+## https://book.getfoundry.sh/
